@@ -38,8 +38,8 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/background1.jpeg);
-    background-size: 20px 20px; */
+    background-image: url(../src/assets/bg-texture.png);
+    /* background-size: 20px 20px; */
 }
 
 /* ========================================= GENERAL STYLES =================================================*/
