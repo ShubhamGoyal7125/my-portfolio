@@ -1,0 +1,119 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item{
+    background: var(--color-bg-varient);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.portfolio__item__image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    img{
+        height: 10rem;
+        object-fit: fill;
+    }
+}
+
+.portfolio__item h3{
+    margin: 1.2rem auto;
+}
+
+.flip__card{
+    background: transparent;
+    perspective: 1000;
+    width: 20.813rem;
+    height: 15.813rem;
+
+}
+
+.flip__card__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip__card__front, .flip__card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; /* For Safari */
+}
+
+.flip__card__back {
+    width: 100%;
+    height: 100%;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 2rem;
+    border: 2px solid var(--color-bg-varient);
+    position: relative;
+}
+
+.flip__card:hover .flip__card__inner {
+    transform: rotateY(180deg);
+}
+
+.flip__card__back h3{
+    margin: 1rem;
+}
+
+.project__description{
+    font-size: 0.9rem;
+    padding: 0 1.5rem;
+    color: var(--color-light);
+}
+
+.portfolio__item__cta {
+    margin: 0.65rem auto 0 auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.portfolio__btn {
+    display: block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    transition: var(--transition);
+    background: var(--color-primary);
+    color: var(--color-bg);
+    
+}
+
+.portfolio__btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+/* ========================================= MEDIA QUERIES (MEDIUM DEVICES) =================================================*/
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+
+/* ========================================= MEDIA QUERIES (SMALL DEVICES) =================================================*/
+
+@media screen and (max-width: 600px) {
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
