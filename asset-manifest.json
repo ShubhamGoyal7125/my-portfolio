@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.cb726b25.css",
-    "main.js": "/my-portfolio/static/js/main.d8e4999a.js",
+    "main.js": "/my-portfolio/static/js/main.9f24fdae.js",
     "static/media/anugoonj_project.png": "/my-portfolio/static/media/anugoonj_project.4dbfbf90ba44690c33aa.png",
     "static/media/college_buddy_project.png": "/my-portfolio/static/media/college_buddy_project.f1b97717b9138b7d0842.png",
     "static/media/newsapp_project.png": "/my-portfolio/static/media/newsapp_project.594c2065a152c4d9c67f.png",
-    "static/media/cv.pdf": "/my-portfolio/static/media/cv.a1cac03ed2d83cf4f213.pdf",
+    "static/media/cv.pdf": "/my-portfolio/static/media/cv.d6a9c296891772243a34.pdf",
     "static/media/me-about.jpeg": "/my-portfolio/static/media/me-about.05921841fdfd503803f7.jpeg",
     "static/media/portfolio_img-removebg-preview.png": "/my-portfolio/static/media/portfolio_img-removebg-preview.249c61461bfb1ccbbe40.png",
     "static/media/blog_project.png": "/my-portfolio/static/media/blog_project.a272016f8729a803a2d0.png",
@@ -16,10 +16,10 @@
     "static/media/sdcusict.jfif": "/my-portfolio/static/media/sdcusict.f9f778421fe62ac560ec.jfif",
     "index.html": "/my-portfolio/index.html",
     "main.cb726b25.css.map": "/my-portfolio/static/css/main.cb726b25.css.map",
-    "main.d8e4999a.js.map": "/my-portfolio/static/js/main.d8e4999a.js.map"
+    "main.9f24fdae.js.map": "/my-portfolio/static/js/main.9f24fdae.js.map"
   },
   "entrypoints": [
     "static/css/main.cb726b25.css",
-    "static/js/main.d8e4999a.js"
+    "static/js/main.9f24fdae.js"
   ]
 }
