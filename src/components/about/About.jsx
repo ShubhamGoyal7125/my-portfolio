@@ -24,8 +24,8 @@ const About = () => {
 
             <article className="about__card">
               <FaAward className='about__icon' />
-              <h5>Internship Experience</h5>
-              <small>1+ year Working</small>
+              <h5>Experience</h5>
+              <small>1 year Working</small>
             </article>
 
             <article className="about__card">
@@ -41,9 +41,8 @@ const About = () => {
             </article>
           </div>
 
-          <p>I'm Shubham Goyal, an accomplished Software Engineer. Leading the Web Development Team at SDC-USICT, I delivered the official GGSIPU website, showcasing my tech and leadership skills. As a Backend Developer at SalesBook Technologies Pvt. Ltd, I contributed significantly to the team's success.
-
-During my internship at Utkrisht - USICT, GGSIPU, I built an innovative Metaverse mall with AR and VR, pushing web development boundaries. Recognized by the Vice Chancellor for website work and with over 750 solved Data Structures and Algorithms questions. <b>Let's connect and collaborate on impactful projects.</b> </p>
+          <p>Hi, I'm Shubham Goyal, a passionate and results-driven Software & Data Engineer with a strong foundation in C++, JavaScript, and hands-on experience in full-stack development, data engineering, and cloud technologies. I've built and deployed multiple real-world projects ranging from scalable MERN apps like DebateHub to dynamic data-driven solutions using PySpark, SQL, and AWS EC2.
+I hold a Gold Medal in B.Tech (CSE) and currently work at TCS, where I contribute to master data management and data integration using platforms like Reltio Cloud MDM, AWS EC2. My strength lies in solving complex problems, building intuitive solutions, and constantly learning. </p>
         </div>
 
       </div>
